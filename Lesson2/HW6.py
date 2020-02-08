@@ -26,4 +26,4 @@ while j < len(spisok_product):
 new_dict = dict([('название', spisok_prod),('цена', spisok_money),('количество', spisok_ed),('ед', ['шт.'])])
 print(new_dict)
 
-
+print('It is good job')
