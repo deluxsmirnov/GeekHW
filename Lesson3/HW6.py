@@ -11,4 +11,4 @@ def int_func(*args):
     for i in union:
         new_list.append(i.capitalize())
     return ' '.join(new_list)
-print(int_func("ivan sergeevich kuzov love world"))
+print(int_func("sisi pisi world"))
