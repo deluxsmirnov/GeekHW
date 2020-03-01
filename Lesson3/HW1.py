@@ -5,7 +5,7 @@ def division (x, y):
     try:
         k = float(x) / float(y)
         return round(k)
-    except:
+    except ZeroDivisionError:
         print('На ноль делить нельзя, перезапусти программу')
 
 print(division(num_1, num_2))
