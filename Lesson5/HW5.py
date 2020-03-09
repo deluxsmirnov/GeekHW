@@ -9,4 +9,3 @@ with open('HW5.txt', 'r') as file:
         new_spisok_num.append(num)
     var = ' '.join(read_file)
     print(f'В файле числа {var} сумма всех чисел равна = {sum(new_spisok_num)}')
-

@@ -1,5 +1,3 @@
-a = 'Первая строка и еще сторока, а вот и запятая'
-for i in [a.split()]:
-    print(i)
-print(len(i))
-
+old_list = ['1', '2', '3', '4', '5', '6', '7']
+new_list = map(int, old_list)
+print (new_list)
