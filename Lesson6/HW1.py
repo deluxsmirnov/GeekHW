@@ -14,9 +14,9 @@ class TrafficLight:
             sleep(7)
             print(colored('Загорелся желтый цвет сфетофора', 'yellow'))
             sleep(2)
-            a += 1
+            i += 1
+
 
 go = TrafficLight()
-
 go.traffic_light()
 
